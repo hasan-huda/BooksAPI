@@ -45,6 +45,14 @@ public class Book {
 			}
 			 
 			 
+			public Book(String title, String description, String language, Integer numberOfPages) {
+			this.title = title;
+			this.description = description;
+			this.language = language;
+			this.numberOfPages = numberOfPages;
+		}
+
+
 			public Long getId() {
 				return id;
 			}
